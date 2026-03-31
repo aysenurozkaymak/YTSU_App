@@ -1,4 +1,9 @@
 {
-  "name": "TarifApp",
-  "displayName": "TarifApp"
+  "name": "YTSU",
+  "displayName": "YTSU",
+  "extra": {
+    "eas": {
+      "projectId": "5aff562f-d989-40e3-9e3c-77e4d9453756"
+    }
+  }
 }
