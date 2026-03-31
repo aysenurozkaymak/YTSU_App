@@ -37,6 +37,7 @@ jobs:
       - name: Build Release AAB
         run: |
           cd android
+          chmod +x gradlew
           ./gradlew bundleRelease
         env:
           MYAPP_UPLOAD_STORE_FILE: ytsu-upload-key.keystore
